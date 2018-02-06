@@ -1,0 +1,4332 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "routeNameType",
+        "values": [
+          {
+            "id": "109",
+            "name": {
+              "value": "109 River Road",
+              "synonyms": [
+                "109",
+                "River Road"
+              ]
+            }
+          },
+          {
+            "id": "114",
+            "name": {
+              "value": "114 University View",
+              "synonyms": [
+                "114",
+                "University View"
+              ]
+            }
+          },
+          {
+            "id": "115",
+            "name": {
+              "value": "115 Orange",
+              "synonyms": [
+                "115",
+                "Orange"
+              ]
+            }
+          },
+          {
+            "id": "117",
+            "name": {
+              "value": "117 Blue",
+              "synonyms": [
+                "117",
+                "Blue"
+              ]
+            }
+          },
+          {
+            "id": "125",
+            "name": {
+              "value": "125 Campus Circulator",
+              "synonyms": [
+                "125",
+                "Campus Circulator"
+              ]
+            }
+          },
+          {
+            "id": "127",
+            "name": {
+              "value": "127 Mazza GrandMarc",
+              "synonyms": [
+                "127",
+                "Mazza GrandMarc"
+              ]
+            }
+          },
+          {
+            "id": "128",
+            "name": {
+              "value": "128 The Enclave",
+              "synonyms": [
+                "128",
+                "The Enclave"
+              ]
+            }
+          },
+          {
+            "id": "131",
+            "name": {
+              "value": "131 MGM/Enclave",
+              "synonyms": [
+                "131",
+                "MGM/Enclave"
+              ]
+            }
+          },
+          {
+            "id": "132",
+            "name": {
+              "value": "132 The Varsity",
+              "synonyms": [
+                "132",
+                "The Varsity"
+              ]
+            }
+          },
+          {
+            "id": "133",
+            "name": {
+              "value": "133 The Mall At Prince Georges",
+              "synonyms": [
+                "133",
+                "The Mall At Prince Georges"
+              ]
+            }
+          },
+          {
+            "id": "701",
+            "name": {
+              "value": "701 UMB BioPark",
+              "synonyms": [
+                "701",
+                "UMB BioPark"
+              ]
+            }
+          },
+          {
+            "id": "702",
+            "name": {
+              "value": "702 UMB Mt Vernon",
+              "synonyms": [
+                "702",
+                "UMB Mt Vernon"
+              ]
+            }
+          },
+          {
+            "id": "703",
+            "name": {
+              "value": "703 UMB Federal Hill",
+              "synonyms": [
+                "703",
+                "UMB Federal Hill"
+              ]
+            }
+          },
+          {
+            "id": "104",
+            "name": {
+              "value": "104 College Park Metro",
+              "synonyms": [
+                "104",
+                "College Park Metro"
+              ]
+            }
+          },
+          {
+            "id": "105",
+            "name": {
+              "value": "105 The Courtyards",
+              "synonyms": [
+                "105",
+                "The Courtyards"
+              ]
+            }
+          },
+          {
+            "id": "108",
+            "name": {
+              "value": "108 Adelphi",
+              "synonyms": [
+                "108",
+                "Adelphi"
+              ]
+            }
+          },
+          {
+            "id": "110",
+            "name": {
+              "value": "110 Seven Springs Apts",
+              "synonyms": [
+                "110",
+                "Seven Springs Apts"
+              ]
+            }
+          },
+          {
+            "id": "111",
+            "name": {
+              "value": "111 Silver Spring",
+              "synonyms": [
+                "111",
+                "Silver Spring"
+              ]
+            }
+          },
+          {
+            "id": "113",
+            "name": {
+              "value": "113 Hyattsville",
+              "synonyms": [
+                "113",
+                "Hyattsville"
+              ]
+            }
+          },
+          {
+            "id": "116",
+            "name": {
+              "value": "116 Purple",
+              "synonyms": [
+                "116",
+                "Purple"
+              ]
+            }
+          },
+          {
+            "id": "118",
+            "name": {
+              "value": "118 Gold",
+              "synonyms": [
+                "118",
+                "Gold"
+              ]
+            }
+          },
+          {
+            "id": "122",
+            "name": {
+              "value": "122 Green",
+              "synonyms": [
+                "122",
+                "Green"
+              ]
+            }
+          },
+          {
+            "id": "124",
+            "name": {
+              "value": "124 The Shady Grove",
+              "synonyms": [
+                "124",
+                "The Shady Grove"
+              ]
+            }
+          },
+          {
+            "id": "126",
+            "name": {
+              "value": "126 New Carrolton",
+              "synonyms": [
+                "126",
+                "New Carrolton"
+              ]
+            }
+          },
+          {
+            "id": "129",
+            "name": {
+              "value": "129 Franklin Park at Greenbelt Station",
+              "synonyms": [
+                "129",
+                "Franklin Park at Greenbelt Station"
+              ]
+            }
+          },
+          {
+            "id": "130",
+            "name": {
+              "value": "130 Greenbelt",
+              "synonyms": [
+                "130",
+                "Greenbelt"
+              ]
+            }
+          },
+          {
+            "id": "137",
+            "name": {
+              "value": "137 IKEA",
+              "synonyms": [
+                "137",
+                "IKEA"
+              ]
+            }
+          },
+          {
+            "id": "138",
+            "name": {
+              "value": "138 Greenbelt",
+              "synonyms": [
+                "138",
+                "Greenbelt"
+              ]
+            }
+          },
+          {
+            "id": "139",
+            "name": {
+              "value": "139 NASA Goddard",
+              "synonyms": [
+                "139",
+                "NASA Goddard"
+              ]
+            }
+          },
+          {
+            "id": "140",
+            "name": {
+              "value": "140 UMB Law",
+              "synonyms": [
+                "140",
+                "UMB Law"
+              ]
+            }
+          },
+          {
+            "id": "704",
+            "name": {
+              "value": "704 UMB Canton/Fells Point",
+              "synonyms": [
+                "704",
+                "UMB Canton/Fells Point"
+              ]
+            }
+          },
+          {
+            "id": "141",
+            "name": {
+              "value": "141 Gaithersburg Park & Ride",
+              "synonyms": [
+                "141",
+                "Gaithersburg Park & Ride"
+              ]
+            }
+          },
+          {
+            "id": "143",
+            "name": {
+              "value": "143 Greenbelt",
+              "synonyms": [
+                "143",
+                "Greenbelt"
+              ]
+            }
+          },
+          {
+            "id": "142",
+            "name": {
+              "value": "142 Columbia Park & Ride",
+              "synonyms": [
+                "142",
+                "Columbia Park & Ride"
+              ]
+            }
+          },
+          {
+            "id": "bse",
+            "name": {
+              "value": "Bowie State - Enclave Express",
+              "synonyms": [
+                "Bowie",
+                "State - Enclave Express"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "stopNameType",
+        "values": [
+          {
+            "id": "laplat",
+            "name": {
+              "value": "La Plata Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camb",
+            "name": {
+              "value": "Cambridge Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "guilrowa_out",
+            "name": {
+              "value": "Guilford Drive and Rowalt Drive (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "guilhart",
+            "name": {
+              "value": "Guilford Drive and Hartwick Road",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mowaprei",
+            "name": {
+              "value": "Mowatt Lane and Preinkert Drive",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mowagara",
+            "name": {
+              "value": "Mowatt Lane Garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "vanmunch",
+            "name": {
+              "value": "Van Munching Hall (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mowacamp",
+            "name": {
+              "value": "Mowatt Lane and Campus Drive",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camplot3",
+            "name": {
+              "value": "Campus Drive at Lot 3",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gradhill",
+            "name": {
+              "value": "Adelphi Rd at Graduate Hills Apts",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "adelwell_out",
+            "name": {
+              "value": "Adelphi Rd and Wells Blvd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "adel_nwhs",
+            "name": {
+              "value": "Adelphi Rd at Northwestern HS",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "toleadel",
+            "name": {
+              "value": "Toledo Rd and Adelphi Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tolebelc",
+            "name": {
+              "value": "Toledo and Belcrest Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mallpgeo",
+            "name": {
+              "value": "The Mall at Prince George's",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pgmetro_out",
+            "name": {
+              "value": "Belcrest Rd and East-West Hwy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pgmetro",
+            "name": {
+              "value": "PG Plaza Metro Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ewhwpgpz",
+            "name": {
+              "value": "East-West Hwy at The Mall at Prince George's",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tolewmal",
+            "name": {
+              "value": "Toledo Rd at the Mall at Prince George's-West",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tolenmal",
+            "name": {
+              "value": "Toledo Rd at the Mall at Prince George's-North",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tolebelc_in",
+            "name": {
+              "value": "Toledo Rd and Belcrest Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "adelvbur",
+            "name": {
+              "value": "Adelphi Rd and Van Buren St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "adelwell_in",
+            "name": {
+              "value": "Adelphi Rd and Wells Pkwy (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "adeltula",
+            "name": {
+              "value": "Adelphi Rd and Campus Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camplot19",
+            "name": {
+              "value": "Campus Dr at UMUC Lot 19",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hillmunc",
+            "name": {
+              "value": "Van Munching Hall (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "balthart_in",
+            "name": {
+              "value": "Baltimore Ave and Hartwick Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mont_in",
+            "name": {
+              "value": "Montgomery Hall (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "memo_in",
+            "name": {
+              "value": "Memorial Chapel (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mitc_in",
+            "name": {
+              "value": "Mitchell Building (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "stamsu_a",
+            "name": {
+              "value": "Stamp Student Union - Slip (Arrival)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regegara_d",
+            "name": {
+              "value": "Regents Drive Garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "campmath_m",
+            "name": {
+              "value": "Campus Dr at Math Slip",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltmacd",
+            "name": {
+              "value": "Baltimore Avenue and Berwyn House Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltberw_out",
+            "name": {
+              "value": "Baltimore Ave and Berwyn Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltcher_out",
+            "name": {
+              "value": "Baltimore Ave and Cherokee St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltindi_out",
+            "name": {
+              "value": "Baltimore Ave and Indian Ln (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltindi_in",
+            "name": {
+              "value": "Baltimore Ave and Indian Ln (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltcher_in",
+            "name": {
+              "value": "Baltimore Ave and Cherokee St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltberw",
+            "name": {
+              "value": "Baltimore Ave and Berwyn Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltview_s",
+            "name": {
+              "value": "Baltimore Ave at University View",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "varsfron",
+            "name": {
+              "value": "Baltimore Ave at The Varsity",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painstad_r",
+            "name": {
+              "value": "Glenn L. Martin Wind Tunnel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "uniofiel_e",
+            "name": {
+              "value": "Union Ln and Fieldhouse Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "capfbyrd",
+            "name": {
+              "value": "Capital One Field at Byrd Stadium",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mcirc_s",
+            "name": {
+              "value": "Campus Dr at M Circle",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paingree_g",
+            "name": {
+              "value": "Paint Branch Pkwy and Greenhouse Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painrhod_g",
+            "name": {
+              "value": "Paint Branch Pkwy and Rhode Island Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cmetgara_g",
+            "name": {
+              "value": "Paint Branch Pkwy at College Park Metro Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pain52nd_g",
+            "name": {
+              "value": "Paint Branch Pkwy and 52nd Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmknox_g",
+            "name": {
+              "value": "Edmonston Rd and Knoxville Dr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmbryn_g",
+            "name": {
+              "value": "Edmonston Rd and Bryn Mawr Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmberw_g",
+            "name": {
+              "value": "Edmonston Rd and Berwyn Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westpark_g",
+            "name": {
+              "value": "Westchester Park Circle",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pont63rd_g",
+            "name": {
+              "value": "Pontiac St and 63rd Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pontcunn_g",
+            "name": {
+              "value": "Pontiac St and Cunningham Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ruat60th_g",
+            "name": {
+              "value": "60th Ave and Ruatan St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gree60th_g",
+            "name": {
+              "value": "60th Ave and Greenbelt Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cherbelt_g",
+            "name": {
+              "value": "Cherrywood Ln at Beltway Plaza (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cherbree_g",
+            "name": {
+              "value": "Cherrywood Terr and Breezewood Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "sprgbree_g",
+            "name": {
+              "value": "Springhill Ln and Breezewood Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmedmon_g",
+            "name": {
+              "value": "Edmonston Rd and Edmonston Ct (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "springed_g",
+            "name": {
+              "value": "Edmonston Rd and Springhill Ct (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "frankleas_g",
+            "name": {
+              "value": "Franklin Park at Greenbelt Station (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "marksprg_g",
+            "name": {
+              "value": "Springhill Dr Market Ln (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "sprgelem_g",
+            "name": {
+              "value": "Springhill Lake Elem School (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greenmet_r",
+            "name": {
+              "value": "Greenbelt Metro Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "sprielem_r",
+            "name": {
+              "value": "Springhill Lake Elementary School (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "sprimark_r",
+            "name": {
+              "value": "Springhill Dr and Market Ln (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "frangree_r",
+            "name": {
+              "value": "Franklin Park at Greenbelt Station (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmospri_r",
+            "name": {
+              "value": "Edmonston Rd and Springhill Ct (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmoedmo_r",
+            "name": {
+              "value": "Edmonston Rd and Edmonston Ct (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "breespri_r",
+            "name": {
+              "value": "Breezewood Dr and Springhill Ln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "breecher_r",
+            "name": {
+              "value": "Breezewood Dr and Cherrywood Terr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cherbelt_r",
+            "name": {
+              "value": "Cherrywood Ln at Beltway Plaza (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gree60th_r",
+            "name": {
+              "value": "60th Ave and Greenbelt Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ruat60th_r",
+            "name": {
+              "value": "60th Ave and Ruatan St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cunnpont_r",
+            "name": {
+              "value": "Cunningham Dr and Pontiac St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pont63rd_r",
+            "name": {
+              "value": "Pontiac St and 63rd Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmberw_r",
+            "name": {
+              "value": "Edmonston Rd and Berwyn Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmbryn_r",
+            "name": {
+              "value": "Edmonston Rd and Bryn Mawr Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edmknox_r",
+            "name": {
+              "value": "Edmonston Rd and Knoxville Dr (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pain52nd_r",
+            "name": {
+              "value": "Paint Branch Pkwy and 52nd Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pain50th_r",
+            "name": {
+              "value": "Paint Branch Pkwy and 50th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painrhod_r",
+            "name": {
+              "value": "Paint Branch Pkwy and Rhode Island Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paingree_r",
+            "name": {
+              "value": "Paint Branch Pkwy and Greenhouse Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "stamsu_m",
+            "name": {
+              "value": "Stamp Student Union - Slip",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "artsoci_m",
+            "name": {
+              "value": "Art/Sociology Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camplt1d",
+            "name": {
+              "value": "Campus Dr at Lot 3",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "umuc_m",
+            "name": {
+              "value": "UMUC - College Park Marriott",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greeseve",
+            "name": {
+              "value": "Greenbelt Rd at Severn Building (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gree60th_m",
+            "name": {
+              "value": "Greenbelt Rd and 60th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gree62nd_m",
+            "name": {
+              "value": "Greenbelt Rd and 62nd Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greewalko_m",
+            "name": {
+              "value": "Greenbelt Rd and Walker Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greelakeo_m",
+            "name": {
+              "value": "Greenbelt Rd and Lakecrest Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hanogree_r",
+            "name": {
+              "value": "Hanover Pkwy and Greenbelt Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hano7718_r",
+            "name": {
+              "value": "Hanover Pkwy at Eleanor Roosevelt High School",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hano7824_r",
+            "name": {
+              "value": "Hanover Pkwy and Mandan Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mandgoak_r",
+            "name": {
+              "value": "Mandan Rd at Glen Oaks Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greebrit_out",
+            "name": {
+              "value": "Greenbelt Road at Chelsea Woods Condominiums (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nasagree_out",
+            "name": {
+              "value": "Greenbelt Rd at NASA Main Entrance (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "icesat",
+            "name": {
+              "value": "ICESat Rd and Visitor's Center Entrance",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nasagodd",
+            "name": {
+              "value": "NASA Goddard Space Flight Center Visitor Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nasagree_in",
+            "name": {
+              "value": "Greenbelt Rd at NASA Main Entrance (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greebrit_in",
+            "name": {
+              "value": "Greenbelt Rd at Chelsea Woods Condominiums (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mandcann_m",
+            "name": {
+              "value": "Mandan Rd and Canning Terr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "oraggree_m",
+            "name": {
+              "value": "Ora Glen Dr and Greenbrook Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "oraghano_m",
+            "name": {
+              "value": "Ora Glen Dr and Hanover Pkwy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hanogreen",
+            "name": {
+              "value": "Hanover Parkway at Greenway Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greegreei_r",
+            "name": {
+              "value": "Greenbelt Rd at Greenway Center (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lakelake_r",
+            "name": {
+              "value": "Lakecrest Dr and Lakeside Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lakewest_r",
+            "name": {
+              "value": "Lakeside Dr and Westway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westridg_r",
+            "name": {
+              "value": "Westway and Ridge Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgsout_r",
+            "name": {
+              "value": "Ridge Rd and Southway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridggard_r",
+            "name": {
+              "value": "Ridge Rd and Gardenway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgeast_r",
+            "name": {
+              "value": "Ridge Rd and Eastway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgplat_r",
+            "name": {
+              "value": "Ridge Rd and Plateau Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgrese_r",
+            "name": {
+              "value": "Ridge Rd and Research Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lastjuli_r",
+            "name": {
+              "value": "Lastner Ln and Julian Ct",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lastivy_r",
+            "name": {
+              "value": "Lastner Ln and Ivy Ln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ivyridg_r",
+            "name": {
+              "value": "Ivy Ln and Ridge Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "green63rd_r",
+            "name": {
+              "value": "Greenbelt Rd and 63rd Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greencher_r",
+            "name": {
+              "value": "Greenbelt Rd and Cherrywood Ln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greerhod",
+            "name": {
+              "value": "Greenbelt Rd at Severn Building (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lot4i_r",
+            "name": {
+              "value": "Paint Branch Dr at Lot 4b (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "shutbase_in",
+            "name": {
+              "value": "Shuttle-UM Base (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painregeb_r",
+            "name": {
+              "value": "Paint Branch Dr and Regents Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "stadgara",
+            "name": {
+              "value": "Stadium Drive Garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "stadvtho",
+            "name": {
+              "value": "Varsity Team House",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mitc_out",
+            "name": {
+              "value": "Mitchell Building (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "memo_out",
+            "name": {
+              "value": "Memorial Chapel (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mont_out",
+            "name": {
+              "value": "Montgomery Hall (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltritc",
+            "name": {
+              "value": "Ritchie Coliseum",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "enclave_s",
+            "name": {
+              "value": "The Enclave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltfrat",
+            "name": {
+              "value": "Fraternity Row",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltpbra",
+            "name": {
+              "value": "Baltimore Ave and Paint Branch Pkwy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "varsity_s",
+            "name": {
+              "value": "The Varsity",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hage",
+            "name": {
+              "value": "Hagerstown Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "balthart_out",
+            "name": {
+              "value": "Baltimore Avenue and Hartwick Road (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltguil",
+            "name": {
+              "value": "Baltimore Avenue and Guilford Drive",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "peargara_d",
+            "name": {
+              "value": "Pearl St Garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pearlexi",
+            "name": {
+              "value": "Pearl St & Lexington St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greefaye",
+            "name": {
+              "value": "Green St & Fayette St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greebalt",
+            "name": {
+              "value": "Green St & Baltimore St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greelomb",
+            "name": {
+              "value": "Green St & Lombard St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greeprat",
+            "name": {
+              "value": "Green St & Pratt St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "washemor",
+            "name": {
+              "value": "Washington Blvd & Emory St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "washmlk",
+            "name": {
+              "value": "Washington Blvd & Martin Luther King Jr Blvd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "washbarr",
+            "name": {
+              "value": "Washington Blvd & Barre St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "washscot",
+            "name": {
+              "value": "Washington Blvd & Scott St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ramsapts",
+            "name": {
+              "value": "Ramsay St Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "scotroun",
+            "name": {
+              "value": "Scott St & Roundhouse Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "scotlemm",
+            "name": {
+              "value": "Scott St & Lemmon St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombpark",
+            "name": {
+              "value": "Lombard St & Parkin St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "popplomb",
+            "name": {
+              "value": "Poppleton St & Lombard St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "poppboot",
+            "name": {
+              "value": "Poppleton St & Booth St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "biopark",
+            "name": {
+              "value": "BioPark",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltfrem",
+            "name": {
+              "value": "Baltimore St & Martin Luther King Jr Blvd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltpine",
+            "name": {
+              "value": "Baltimore & Pine St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "umbtrans",
+            "name": {
+              "value": "UMB Transit Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pacafaye",
+            "name": {
+              "value": "Paca St & Fayette St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pacasara",
+            "name": {
+              "value": "Paca St & Saratoga St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pennstmr",
+            "name": {
+              "value": "Pennsylvania Ave & St Mary St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ummccamp",
+            "name": {
+              "value": "UMMC: Midtown Campus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eutadrui",
+            "name": {
+              "value": "Eutaw St & Druid Hill Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eutafran",
+            "name": {
+              "value": "Eutaw St & Franklin St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eutamulb",
+            "name": {
+              "value": "Eutaw St & Mulberry St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eutasara",
+            "name": {
+              "value": "Eutaw St & Saratoga St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lexmmetr",
+            "name": {
+              "value": "Lexington Market",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "fayepaca",
+            "name": {
+              "value": "Fayette St & Paca St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltpaca",
+            "name": {
+              "value": "Baltimore St & Paca St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "balteuta",
+            "name": {
+              "value": "Baltimore St & Eutaw St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "balthopk",
+            "name": {
+              "value": "Baltimore St & Hopkins Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charcent",
+            "name": {
+              "value": "Charles Center Metro",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charsara",
+            "name": {
+              "value": "Charles St & Saratoga St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charhami",
+            "name": {
+              "value": "Charles St & Hamilton St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charvern",
+            "name": {
+              "value": "Charles St and Mt Vernon Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charread",
+            "name": {
+              "value": "Charles St and Read St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "chareage",
+            "name": {
+              "value": "Charles St and Eager St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charchas",
+            "name": {
+              "value": "Charles St and Chase St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charbidd",
+            "name": {
+              "value": "Charles St and Biddle St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charpres",
+            "name": {
+              "value": "Charles St and Preston St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charpenn",
+            "name": {
+              "value": "Charles St & Penn Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulpenn",
+            "name": {
+              "value": "St Paul St & Penn Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulpres",
+            "name": {
+              "value": "St Paul and Preston St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulbidd",
+            "name": {
+              "value": "St Paul and Biddle St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulchas",
+            "name": {
+              "value": "St Paul and Chase St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulread",
+            "name": {
+              "value": "St Paul and Read St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulmadi",
+            "name": {
+              "value": "St Paul St and Madison St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulcent",
+            "name": {
+              "value": "St Paul St & Centre St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulmulb",
+            "name": {
+              "value": "St Paul & Mulberry St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paulsara",
+            "name": {
+              "value": "St Paul & Saratoga St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paullexi",
+            "name": {
+              "value": "St Paul & Lexington St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "fayeplaz",
+            "name": {
+              "value": "Fayette St Plaza",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "fayehowa",
+            "name": {
+              "value": "Fayette St & Howard St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mlkbalt",
+            "name": {
+              "value": "Martin Luther King Jr Blvd & Baltimore St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pratpenn",
+            "name": {
+              "value": "Pratt St & Penn St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pratgree",
+            "name": {
+              "value": "Pratt St & Green St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "prathowa",
+            "name": {
+              "value": "Pratt St & Howard St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pratshar",
+            "name": {
+              "value": "Pratt St & Sharp St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pratligh",
+            "name": {
+              "value": "Pratt St & Light St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lightcon",
+            "name": {
+              "value": "Light St & Conway St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lightlee",
+            "name": {
+              "value": "Light St & Lee St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lightmon",
+            "name": {
+              "value": "Light St & Montgomery St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lighthen",
+            "name": {
+              "value": "Light St & Henrietta St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lightcro",
+            "name": {
+              "value": "Light St & Cross St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lightwes",
+            "name": {
+              "value": "Light St & West St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lightost",
+            "name": {
+              "value": "Light St & Ostend St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "fortligh",
+            "name": {
+              "value": "Light St & Fort Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "fortchar",
+            "name": {
+              "value": "Fort Ave & Charles St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charoste",
+            "name": {
+              "value": "Charles St & Ostend St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charwest",
+            "name": {
+              "value": "Charles St & West St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charcros",
+            "name": {
+              "value": "Charles St & Cross St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charhenr",
+            "name": {
+              "value": "Charles St & Henrietta St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charlee",
+            "name": {
+              "value": "Charles St & Lee St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charlcon",
+            "name": {
+              "value": "Charles St & Conway St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "charlcam",
+            "name": {
+              "value": "Charles St & Pratt St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombchar",
+            "name": {
+              "value": "Lombard St & Charles St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombhopk",
+            "name": {
+              "value": "Lombard St & Hopkins Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombhowa",
+            "name": {
+              "value": "Lombard St & Howard St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombeuta",
+            "name": {
+              "value": "Lombard St & Eutaw St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombgree",
+            "name": {
+              "value": "Lombard St & Green St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombmlk",
+            "name": {
+              "value": "Lombard St & Martin Luther King Jr Blvd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cpmetro_d",
+            "name": {
+              "value": "College Park - UMD Metro Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regestad",
+            "name": {
+              "value": "Regents Dr and Stadium Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regefarm_out",
+            "name": {
+              "value": "Regents Dr and Farm Dr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regecomc_out",
+            "name": {
+              "value": "Regents Drive at XFINITY Center (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regepain_out",
+            "name": {
+              "value": "Regents Dr and Paint Branch Dr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "shutbase_out",
+            "name": {
+              "value": "Shuttle-UM Base (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lot4_out",
+            "name": {
+              "value": "Paint Branch Dr at Lot 4b (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzgree",
+            "name": {
+              "value": "Metzerott Rd and Greenmead Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gree_out",
+            "name": {
+              "value": "Greenmead Dr at Maryland 4-H (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cour500",
+            "name": {
+              "value": "Courtyards #500",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greemead_in",
+            "name": {
+              "value": "Greenmead Dr at Maryland 4-H (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greemetz",
+            "name": {
+              "value": "Greenmeade Dr and Metzerott Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regepain",
+            "name": {
+              "value": "Regents Dr and Paint Branch Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regecomc_in",
+            "name": {
+              "value": "Regents Drive at XFINITY Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "regefarm_in",
+            "name": {
+              "value": "Regents Dr and Farm Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "stamsuhh_d",
+            "name": {
+              "value": "Stamp Student Union - Lot HH",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzgree_out",
+            "name": {
+              "value": "Metzerott Rd and Greenmeade Dr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzacre",
+            "name": {
+              "value": "Metzerott Rd and Acredale Ct",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzsa",
+            "name": {
+              "value": "Metzerott Rd @ System Administration",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "arch_ob",
+            "name": {
+              "value": "Metzerott Rd at Archives II (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzadel",
+            "name": {
+              "value": "Metzerott Rd and Adelphi Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "coolspri_out",
+            "name": {
+              "value": "Metzerott Rd and Riggs Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzpres",
+            "name": {
+              "value": "Metzerott Rd at Presidential Towers",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metznham_out",
+            "name": {
+              "value": "Metzerott Rd and New Hampshire Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nhamfox",
+            "name": {
+              "value": "New Hampshire Ave and Fox St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nhamadel_out",
+            "name": {
+              "value": "New Hampshire Ave and Adelphi Road (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nhamoak_out",
+            "name": {
+              "value": "New Hampshire Ave and Oakview Dr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "chateau_r",
+            "name": {
+              "value": "Mt Pisgah Rd at Chateau Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "nhamadel_in",
+            "name": {
+              "value": "New Hampshire Ave and Adelphi Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metznham_in",
+            "name": {
+              "value": "Metzerott Rd and New Hampshire Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metz1811",
+            "name": {
+              "value": "Metzerott Rd at The Delano Apts",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "coolspri_in",
+            "name": {
+              "value": "Metzerott Rd and Riggs Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metz24th",
+            "name": {
+              "value": "Metzerott Rd and 24th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzarch",
+            "name": {
+              "value": "Metzerott Rd at Archives II (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzobse",
+            "name": {
+              "value": "Metzerott Rd @ UM Observatory",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metz34th",
+            "name": {
+              "value": "Metzerott Rd and 34th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzgree_in",
+            "name": {
+              "value": "Metzerott Rd and University Blvd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painrege_bus",
+            "name": {
+              "value": "Paint Branch Dr and Regents Dr (Bus Shelter)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painstad",
+            "name": {
+              "value": "Paint Branch Dr and Stadium Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "acphys",
+            "name": {
+              "value": "River Road and Rivertech Court",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "acphys_elli",
+            "name": {
+              "value": "American Center for Physics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rayt",
+            "name": {
+              "value": "Raytheon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "msqua",
+            "name": {
+              "value": "M-Square",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "usda",
+            "name": {
+              "value": "USDA",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rrmshel",
+            "name": {
+              "value": "River Road at American Center for Physics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhoduni",
+            "name": {
+              "value": "Rhode Island Ave and University Blvd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodcher",
+            "name": {
+              "value": "Rhode Island Ave and Cherokee St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodindi",
+            "name": {
+              "value": "Rhode Island Ave and Fox St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodholl",
+            "name": {
+              "value": "Rhode Island Ave and Hollywood Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hollshop",
+            "name": {
+              "value": "Rhode Island Ave and Hollywood Shopping Ctr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edgerhod",
+            "name": {
+              "value": "Edgewood Rd and Rhode Island Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edge49th",
+            "name": {
+              "value": "Edgewood Rd and 49th Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cpmark",
+            "name": {
+              "value": "Cherry Hill Rd at College Park Marketplace",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cher9348",
+            "name": {
+              "value": "Seven Springs Apts at 9348 Cherry Hill Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ssvill",
+            "name": {
+              "value": "Seven Springs Apts at 9310 Cherry Hill Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cher9308",
+            "name": {
+              "value": "Seven Springs Apts at 9308 Cherry Hill Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cher47th",
+            "name": {
+              "value": "Cherry Hill Rd and 47th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edge49th_in",
+            "name": {
+              "value": "Edgewood Rd and 49th Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edgerhod_in",
+            "name": {
+              "value": "Edgewood Rd and Rhode Island Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodholl_in",
+            "name": {
+              "value": "Rhode Island Ave and Hollywood Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodfox",
+            "name": {
+              "value": "Rhode Island Avenue and Fox Street (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodcher_in",
+            "name": {
+              "value": "Rhode Island Ave and Cherokee St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhoduni_in",
+            "name": {
+              "value": "Rhode Island Ave and University Blvd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univtula",
+            "name": {
+              "value": "University Blvd and Tulane Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univshop_out",
+            "name": {
+              "value": "University Blvd at Adelphi Plaza",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univguil_out",
+            "name": {
+              "value": "University Blvd and Guilford Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univrigg_out",
+            "name": {
+              "value": "University Blvd and Riggs Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univnham",
+            "name": {
+              "value": "University Blvd and New Hampshire Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univrite",
+            "name": {
+              "value": "University Blvd at Langley Park Ctr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "merrilock",
+            "name": {
+              "value": "Merrimac Dr and Lockney Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carrchest",
+            "name": {
+              "value": "Carroll Ave and Chester St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carrglen",
+            "name": {
+              "value": "Carroll Ave and Glenside Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carrgarl",
+            "name": {
+              "value": "Caroll Ave and Garland Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowcarr",
+            "name": {
+              "value": "Flower Ave and Carroll Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowdivi",
+            "name": {
+              "value": "Flower Ave at Washington Adventist University (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowkenne",
+            "name": {
+              "value": "Flower Ave and Kennebec Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowhuds",
+            "name": {
+              "value": "Flower Ave and Hudson (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowdome",
+            "name": {
+              "value": "Flower Ave and Domer Ave (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowplym",
+            "name": {
+              "value": "Flower Ave and Plymouth St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "waynslig_out",
+            "name": {
+              "value": "Wayne Ave and Sligo Creek Pkwy (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "wayndale_out",
+            "name": {
+              "value": "Wayne Ave and Dale Dr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "waynwhol",
+            "name": {
+              "value": "Wayne Ave and Fenton St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ssmetro",
+            "name": {
+              "value": "Silver Spring Metro Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "waynfent",
+            "name": {
+              "value": "Wayne Ave and Fenton St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "wayndale_in",
+            "name": {
+              "value": "Wayne Ave and Dale Dr (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "waynslig_in",
+            "name": {
+              "value": "Wayne Ave and Sligo Creek Pkwy (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowplym_in",
+            "name": {
+              "value": "Flower Ave and Plymouth St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowdome_in",
+            "name": {
+              "value": "Flower Ave and Domer Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowhuds_in",
+            "name": {
+              "value": "Flower Ave and Hudson (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowkenn_in",
+            "name": {
+              "value": "Flower Ave and Kennebec (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowdivi_inn",
+            "name": {
+              "value": "Flower Ave at Washington Adventist University (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "flowcarr_in",
+            "name": {
+              "value": "Flower Ave and Carroll Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carrgarl_in",
+            "name": {
+              "value": "Carroll Ave and Garland Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carranne_in",
+            "name": {
+              "value": "Carroll Ave and Anne St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carrwild_in",
+            "name": {
+              "value": "Carroll Ave and Wildwood Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "merriuniv",
+            "name": {
+              "value": "Merrimac Dr and University Blvd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univhamp",
+            "name": {
+              "value": "University Blvd at Hampshire Langley Shopping Ctr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univ14th",
+            "name": {
+              "value": "University Blvd and 14th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univhech",
+            "name": {
+              "value": "University Blvd and Riggs Road (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univcity",
+            "name": {
+              "value": "University Blvd and Guilford Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univ25th_in",
+            "name": {
+              "value": "University Blvd and 25th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univgrad",
+            "name": {
+              "value": "University Blvd at Graduate Hills",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cspa_main",
+            "name": {
+              "value": "Stadium Drive and University Boulevard",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "39thquee",
+            "name": {
+              "value": "Queensbury Rd and 39th Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "42ndquee",
+            "name": {
+              "value": "42nd Ave and Queensbury Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "42ndogle",
+            "name": {
+              "value": "42nd Ave and Oglethorpe St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "42ndmadi",
+            "name": {
+              "value": "42nd Ave and Madison St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "42ndjeff",
+            "name": {
+              "value": "42nd Ave and Jefferson St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "42ndfarr",
+            "name": {
+              "value": "Farragut St and 42nd Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "farrrhod",
+            "name": {
+              "value": "Farragut St and Rhode Island Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltgall",
+            "name": {
+              "value": "Baltimore Ave and Gallatin St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "balthami",
+            "name": {
+              "value": "Baltimore Ave and Hamilton St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltlong",
+            "name": {
+              "value": "Baltimore Ave and Longfellow St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltogle",
+            "name": {
+              "value": "Baltimore Ave and Oglethorpe St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "44thquee",
+            "name": {
+              "value": "Queensbury Rd and 44th Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "quee42nd",
+            "name": {
+              "value": "Queensbury Rd and 42nd Pl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "belcquch",
+            "name": {
+              "value": "Belcrest Rd and Queens Chapel Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pgcc",
+            "name": {
+              "value": "Prince George's Community College",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "adeltole",
+            "name": {
+              "value": "Adelphi Rd and Toledo Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "wico",
+            "name": {
+              "value": "Wicomico Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lotu4",
+            "name": {
+              "value": "Preinkert Drive at Lot MV",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "guilknox",
+            "name": {
+              "value": "Mowatt Lane and Knox Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rossknox_d",
+            "name": {
+              "value": "Knox Rd and Rossburg Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "collpktw",
+            "name": {
+              "value": "College Park Towers",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "collpksh",
+            "name": {
+              "value": "College Park Shopping Ctr (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univview",
+            "name": {
+              "value": "University View",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lot1",
+            "name": {
+              "value": "Union Dr at Lot 1b",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cspac",
+            "name": {
+              "value": "Valley Drive at Stadium Drive Garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "elk",
+            "name": {
+              "value": "Elkton Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hoff",
+            "name": {
+              "value": "Hoff Theater",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "biofield",
+            "name": {
+              "value": "BioSciences Research Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cour300",
+            "name": {
+              "value": "Courtyards #300",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cour400",
+            "name": {
+              "value": "Courtyards #400",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gree",
+            "name": {
+              "value": "Greenmeade Dr at Maryland 4-H (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "guilross",
+            "name": {
+              "value": "Guilford Dr and Rossburg Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "guilrowa",
+            "name": {
+              "value": "Guilford Drive and Rowalt Drive (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univclub",
+            "name": {
+              "value": "University Club Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "berwuniv",
+            "name": {
+              "value": "Berwyn House Rd and University Blvd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "sccomm1_2",
+            "name": {
+              "value": "South Campus Commons 1 & 2",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "sccomm5_6",
+            "name": {
+              "value": "South Campus Commons 5 and 6",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lota",
+            "name": {
+              "value": "Preinkert Drive at Lot A",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "some",
+            "name": {
+              "value": "Somerset Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "annearun",
+            "name": {
+              "value": "Anne Arundel Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "dent",
+            "name": {
+              "value": "Denton Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tula3424",
+            "name": {
+              "value": "Graduate Hills at 3424 Tulane Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tula3410",
+            "name": {
+              "value": "Graduate Hills at 3410 Tulane Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "tula3403",
+            "name": {
+              "value": "Graduate Hills at 3404 Tulane Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univbapt",
+            "name": {
+              "value": "University Methodist Church",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lds",
+            "name": {
+              "value": "LDS Institute of Religion",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "cathsc",
+            "name": {
+              "value": "Catholic Student Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "4315rwlt",
+            "name": {
+              "value": "Graduate Gardens at 4315 Rowalt Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "4327rwlt",
+            "name": {
+              "value": "Graduate Gardens at 4327 Rowalt Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "shoebuil",
+            "name": {
+              "value": "Shoemaker Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "loty",
+            "name": {
+              "value": "Lot Y and Chapel Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "avwill",
+            "name": {
+              "value": "A.V. Williams Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "techpain",
+            "name": {
+              "value": "Paint Branch Dr and Technology Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "knoxyale",
+            "name": {
+              "value": "Knox Road and Yale Avenue",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "prinknox",
+            "name": {
+              "value": "Knox Rd and Princeton Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hopkknox",
+            "name": {
+              "value": "Knox Rd and Hopkins Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "knoxrhod",
+            "name": {
+              "value": "Knox Rd and Rhode Island Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodcoll",
+            "name": {
+              "value": "Rhode Island Ave and College Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodnorw_s",
+            "name": {
+              "value": "Rhode Island Ave and Norwich Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rossrhod",
+            "name": {
+              "value": "Rossborough Ln and Rhode Island Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "5frat",
+            "name": {
+              "value": "Fraternity Row #5",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "leoncomm_out",
+            "name": {
+              "value": "Leonardtown Community Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "11frat",
+            "name": {
+              "value": "Fraternity Row #11",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "yalecoll",
+            "name": {
+              "value": "Yale Ave and Lehigh Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "yaleknox_ib",
+            "name": {
+              "value": "Yale Avenue and Knox Road",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "collpksh_ib",
+            "name": {
+              "value": "College Park Shopping Center (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "scam34",
+            "name": {
+              "value": "South Campus Commons 3 and 4",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "knoxross_ib",
+            "name": {
+              "value": "Knox Road and Rossburg Drive (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "knoxguil_ib",
+            "name": {
+              "value": "Knox Road and Guilford Drive",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "umbi",
+            "name": {
+              "value": "Shady Grove Parking Lot 1",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univshad",
+            "name": {
+              "value": "The Universities at Shady Grove",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "berwbalt",
+            "name": {
+              "value": "Berwyn House Rd and Baltimore Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "compspac",
+            "name": {
+              "value": "Computer and Space Sciences Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "varsfiel",
+            "name": {
+              "value": "Varsity Practice Field",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ellihall",
+            "name": {
+              "value": "Ellicott Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lot_6",
+            "name": {
+              "value": "Lot 6 at Terrapin Trail Garage",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "comccent",
+            "name": {
+              "value": "XFINITY Center Student Entrance",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lot4_rear",
+            "name": {
+              "value": "Lot 4b (Rear)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "chesbuil",
+            "name": {
+              "value": "Chesapeake Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univpkth",
+            "name": {
+              "value": "Baltimore Ave at University Park Town Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltunde",
+            "name": {
+              "value": "Baltimore Ave and Underwood St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ewhwbeal",
+            "name": {
+              "value": "East-West Hwy and W Beale Cir",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ewhwtayl_out",
+            "name": {
+              "value": "East-West Hwy and Taylor Rd (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rivstber_n",
+            "name": {
+              "value": "Riverdale Rd at St. Bernard's Church",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rivd61st",
+            "name": {
+              "value": "Riverdale Rd and 61st Place",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "riveeast",
+            "name": {
+              "value": "Riverdale Rd and Eastpine Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rive67th",
+            "name": {
+              "value": "Riverdale Rd and 67th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "riveaubu",
+            "name": {
+              "value": "Riverdale Rd and Auburn Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rivemart",
+            "name": {
+              "value": "Riverdale Rd and Martins Ln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rivefinn",
+            "name": {
+              "value": "Riverdale Rd and Finns Ln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rivelamo",
+            "name": {
+              "value": "Riverdale Rd and Lamont Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "founclap",
+            "name": {
+              "value": "Riverdale Rd at Fountain Club Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rivemaho",
+            "name": {
+              "value": "Riverdale Rd and Mahoney Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "herisqap",
+            "name": {
+              "value": "Riverdale Rd at Heritage Square Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "annarive",
+            "name": {
+              "value": "Annapolis Rd and Riverdale Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "annafinn",
+            "name": {
+              "value": "Annapolis Rd and Finns Ln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "vtpkanna",
+            "name": {
+              "value": "Veterans Pkwy and Annapolis Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ncarmetr",
+            "name": {
+              "value": "New Carrollton Metro Station",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lenocrap",
+            "name": {
+              "value": "85th Ave at Lenox Court Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "carrmnap",
+            "name": {
+              "value": "85th Ave at Carrollton Manor Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "long85th",
+            "name": {
+              "value": "85th Ave and Longfellow St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lega85th",
+            "name": {
+              "value": "85th Ave and Legation St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westmadi",
+            "name": {
+              "value": "Westbrook Dr and Madison St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westogle",
+            "name": {
+              "value": "Westbrook Dr and Oglethorpe St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westpowh",
+            "name": {
+              "value": "Westbrook Dr and Powhatan St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westlamo",
+            "name": {
+              "value": "Westbrook Dr and Lamont Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lamolarc",
+            "name": {
+              "value": "Lamont Dr and Larchwood St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lamocarr",
+            "name": {
+              "value": "Lamont Dr and Carrollton Pkwy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lamoquen",
+            "name": {
+              "value": "Lamont Dr and Quentin St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lamodono",
+            "name": {
+              "value": "Lamont Dr and Donoghue Dr",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lamoelem",
+            "name": {
+              "value": "Good Luck Rd at Lamont Elementary School",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gdlknash",
+            "name": {
+              "value": "Good Luck Rd and Nashville Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "gdlkian",
+            "name": {
+              "value": "Good Luck Rd and Ian St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "aubuches",
+            "name": {
+              "value": "Auburn Ave and Chestnut Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "aubu3rd",
+            "name": {
+              "value": "Auburn Ave and 3rd St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "aubu1st",
+            "name": {
+              "value": "Auburn Ave and 1st St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "auburive",
+            "name": {
+              "value": "Auburn Ave and Riverdale Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "wildshop",
+            "name": {
+              "value": "Riverdale Rd at Wildercroft Shopping Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rive67ct",
+            "name": {
+              "value": "Riverdale Rd and 67th Ct",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rive64th",
+            "name": {
+              "value": "Riverdale Rd and 64th Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rive62nd_in",
+            "name": {
+              "value": "Riverdale Rd and 62nd Place",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rive58th",
+            "name": {
+              "value": "Riverdale Rd at St Jude Lutheran Church",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ewhwtayl_in",
+            "name": {
+              "value": "East-West Hwy and Taylor Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltsher",
+            "name": {
+              "value": "Baltimore Ave and Sheridan St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ngarmo",
+            "name": {
+              "value": "Baltimore Ave at National Guard Armory",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltamhe",
+            "name": {
+              "value": "Baltimore Ave and Amherst Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltguil_in",
+            "name": {
+              "value": "Baltimore Ave and Guilford Rd",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mazz",
+            "name": {
+              "value": "Mazza GrandMarc",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodmusk",
+            "name": {
+              "value": "Rhode Island Avenue and Muskogee Street",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "bonidix",
+            "name": {
+              "value": "Bonifant Street and Dixon Avenue",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltqueb_out",
+            "name": {
+              "value": "Baltimore Ave and Quebec St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltqueb_in",
+            "name": {
+              "value": "Baltimore Ave and Quebec St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltqueb",
+            "name": {
+              "value": "Baltimore Avenue and Quebec Street (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhod7elv",
+            "name": {
+              "value": "Rhode Island Avenue at 7-Eleven",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhoduniv_o",
+            "name": {
+              "value": "Rhode Island Avenue and University Boulevard (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ikea",
+            "name": {
+              "value": "IKEA",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ikeaway",
+            "name": {
+              "value": "IKEA Way and IKEA Center Boulevard",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edge49th_i",
+            "name": {
+              "value": "Edgewood Road and 49th Avenue (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "edgerhod_i",
+            "name": {
+              "value": "Edgewood Road and Rhode Island Avenue (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodholl_i",
+            "name": {
+              "value": "Rhode Island Avenue and Hollywood Road (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodcher_i",
+            "name": {
+              "value": "Rhode Island Avenue and Cherokee Street (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhoduniv_i",
+            "name": {
+              "value": "Rhode Island Avenue and University Boulevard (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "beltplaz",
+            "name": {
+              "value": "Beltway Plaza",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "univrhod",
+            "name": {
+              "value": "University Blvd and Rhode Island Ave (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltchar",
+            "name": {
+              "value": "Baltimore St & Charles St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltsout",
+            "name": {
+              "value": "Baltimore St & South St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltfred",
+            "name": {
+              "value": "Baltimore St & Frederick St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltpres",
+            "name": {
+              "value": "Baltimore St & President St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltexet",
+            "name": {
+              "value": "Baltimore St & Exeter St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltlloy",
+            "name": {
+              "value": "Baltimore St & Lloyd St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "broalomb",
+            "name": {
+              "value": "Broadway & Lombard St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "broagoug",
+            "name": {
+              "value": "Broadway & Gough St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastwolf",
+            "name": {
+              "value": "Eastern Ave & Wolfe St (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastwash",
+            "name": {
+              "value": "Eastern Ave & Washington St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastmilt",
+            "name": {
+              "value": "Eastern Ave & Milton Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastlake",
+            "name": {
+              "value": "Eastern Ave & Lakewood Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastellw",
+            "name": {
+              "value": "Eastern Ave & Ellwood Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastfait",
+            "name": {
+              "value": "East Ave & Fait Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastodon",
+            "name": {
+              "value": "East Ave & O'Donnell St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "bostellw",
+            "name": {
+              "value": "Boston St & Ellwood Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "bostkenw",
+            "name": {
+              "value": "Boston St & Kenwood Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "bostcomp",
+            "name": {
+              "value": "Boston St at The Can Company Shopping Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastches",
+            "name": {
+              "value": "Eastern Ave & Chester St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastwolf_ib",
+            "name": {
+              "value": "Eastern Ave & Wolfe St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "eastbroa",
+            "name": {
+              "value": "Eastern Ave & Broadway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "broagoug_ib",
+            "name": {
+              "value": "Broadway & Gough St (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombcent",
+            "name": {
+              "value": "Lombard St & Central Ave",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombalbe",
+            "name": {
+              "value": "Lombard St & Albemarle St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombmark",
+            "name": {
+              "value": "Lombard St & Market Place",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombcomm",
+            "name": {
+              "value": "Lombard St & Commence St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombcalv",
+            "name": {
+              "value": "Lombard St & Calvert St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lombligh",
+            "name": {
+              "value": "Lombard St & Light St",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "dorchall",
+            "name": {
+              "value": "Dorchester Hall",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camplibr",
+            "name": {
+              "value": "Campus Drive and Library Lane",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paingree",
+            "name": {
+              "value": "Campus Drive and Greenhouse Road (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painrhod",
+            "name": {
+              "value": "Campus Drive and Rhode Island Avenue (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pain50th",
+            "name": {
+              "value": "Campus Drive and 50th Avenue",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "painrhod_in",
+            "name": {
+              "value": "Campus Drive and Rhode Island Avenue (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "paingree_in",
+            "name": {
+              "value": "Campus Drive and Greenhouse Road (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "campmcir",
+            "name": {
+              "value": "Campus Drive at M-Circle",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metz36th",
+            "name": {
+              "value": "Metzerott Road and 36th Avenue (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzstan_out",
+            "name": {
+              "value": "Metzerott Road and St. Andrew's Place (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metzstan_in",
+            "name": {
+              "value": "Metzerott Road and St. Andrew's Place (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "metz36th_in",
+            "name": {
+              "value": "Metzerott Road and 36th Avenue (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "pgmetro_in",
+            "name": {
+              "value": "Prince George's Plaza Metro Station (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltrive_out",
+            "name": {
+              "value": "Baltimore Avenue at Riverdale Park Station (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltrive_in",
+            "name": {
+              "value": "Baltimore Avenue at Riverdale Park Station (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "rhodshop",
+            "name": {
+              "value": "Rhode Island Avenue at Hollywood Shopping Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camb_out",
+            "name": {
+              "value": "Cambridge Hall (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "laplat_out",
+            "name": {
+              "value": "La Plata Hall (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hage_out",
+            "name": {
+              "value": "Hagerstown Hall (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "elkton_out",
+            "name": {
+              "value": "Elkton Hall (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "vallstad",
+            "name": {
+              "value": "Valley Drive at Stadium Drive Garage (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "benj",
+            "name": {
+              "value": "Benjamin Building",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "amersafe",
+            "name": {
+              "value": "America Boulevard at Safeway",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "amerregal",
+            "name": {
+              "value": "America Boulevard at Regal Cinemas Hyattsville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hage_in",
+            "name": {
+              "value": "Hagerstown Hall (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "laplat_in",
+            "name": {
+              "value": "La Plata Hall (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "camb_in",
+            "name": {
+              "value": "Cambridge Hall (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "wdiapknr_d",
+            "name": {
+              "value": "West Diamond Ave Park & Ride Lot",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgivy_ob",
+            "name": {
+              "value": "Ridge Road and Ivy Lane",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ivylast_ob",
+            "name": {
+              "value": "Ivy Lane and Lastner Lane",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lastjuli_ob",
+            "name": {
+              "value": "Lastner Lane and Julian Court (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgrese_ob",
+            "name": {
+              "value": "Ridge Road and Research Road (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgplat_ob",
+            "name": {
+              "value": "Ridge Road and Plateau Place (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgeast_ob",
+            "name": {
+              "value": "Ridge Road and Eastway (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridggard_ob",
+            "name": {
+              "value": "Ridge Road and Gardenway (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridggrid",
+            "name": {
+              "value": "Ridge Road at Green Ridge House Apartments",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westridg_ob",
+            "name": {
+              "value": "Westway and Ridge Road (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lakewest_ob",
+            "name": {
+              "value": "Lakeside Drive and Westway (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lakegree_ob",
+            "name": {
+              "value": "Lakecrest Drive and Greenbelt Road (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "greegree_ob",
+            "name": {
+              "value": "Greenbelt Rd at Greenway Center (Outbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "mandhano_ib",
+            "name": {
+              "value": "Mandan Rd and Hanover Pkwy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lakegree_ib",
+            "name": {
+              "value": "Lakecrest Drive and Greenbelt Road (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "campedwa",
+            "name": {
+              "value": "Campus Drive at Edward St. John",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "hartshop",
+            "name": {
+              "value": "Hartwick Road at College Park Shopping Center",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "baltfire",
+            "name": {
+              "value": "Baltimore Avenue at College Park Fire Department",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "brokride",
+            "name": {
+              "value": "Broken Land Park & Ride East Lot",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lakewest_ib",
+            "name": {
+              "value": "Lakeside Dr and Westway (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "westridg_ib",
+            "name": {
+              "value": "Westway and Ridge Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridggard_ib",
+            "name": {
+              "value": "Ridge Rd and Gardenway (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgeast_ib",
+            "name": {
+              "value": "Ridge Rd and Eastway (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgplat_ib",
+            "name": {
+              "value": "Ridge Rd and Plateau Pl (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "ridgrese_ib",
+            "name": {
+              "value": "Ridge Rd and Research Rd (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "lastjuli_ib",
+            "name": {
+              "value": "Lastner Ln and Julian Ct (Inbound)",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "bowiuniv",
+            "name": {
+              "value": "Bowie State University",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "getArrivals",
+        "samples": [
+          "when is the next bus",
+          "when will the next bus be here",
+          "when will the {routeName} bus get to {stopName}",
+          "what time will the {routeName} bus arrive",
+          "what time will the bus arrive at {stopName}",
+          "what time will the {routeName} bus arrive at {stopName}",
+          "when is the next {routeName} bus",
+          "when is the next bus at {stopName}",
+          "when will the {routeName} bus arrive at {stopName}"
+        ],
+        "slots": [
+          {
+            "name": "stopName",
+            "type": "stopNameType",
+            "samples": [
+              "{stopName}",
+              "I am at {stopName}",
+              "the {routeName} bus at {stopName}",
+              "the {stopName} stop",
+              "the next {routeName} arriving at {stopName}"
+            ]
+          },
+          {
+            "name": "routeName",
+            "type": "routeNameType",
+            "samples": [
+              "the {routeName} bus",
+              "{routeName} bus",
+              "{routeName}",
+              "{routeName} bus to {stopName}",
+              "the next {routeName} bus to {stopName}"
+            ]
+          }
+        ]
+      }
+    ],
+    "invocationName": "the oracle"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-getArrivals.IntentSlot-stopName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "which bus stop?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-getArrivals.IntentSlot-routeName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "which route?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "getArrivals",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "stopName",
+            "type": "stopNameType",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-getArrivals.IntentSlot-stopName"
+            }
+          },
+          {
+            "name": "routeName",
+            "type": "routeNameType",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-getArrivals.IntentSlot-routeName"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
