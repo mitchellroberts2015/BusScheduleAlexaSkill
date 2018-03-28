@@ -62,11 +62,10 @@ def get_welcome_response():
     session_attributes = {}
     card_title = "Welcome"
     speech_output = "Welcome to the oracle. " \
-                    "Eventually I will do something cool but for now, " \
-                    "I am less useful than an English major."
+                    "Ask me what time a bus will arrive."
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "Sorry, I don't do shit."
+    reprompt_text = "Sorry, don't know that one."
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
