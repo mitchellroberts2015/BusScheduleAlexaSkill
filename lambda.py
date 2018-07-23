@@ -1,12 +1,3 @@
-"""
-This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
-The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well
-as testing instructions are located at http://amzn.to/1LzFrj6
-
-For additional samples, visit the Alexa Skills Kit Getting Started guide at
-http://amzn.to/1LGWsLG
-"""
-
 from __future__ import print_function
 import json
 import requests
@@ -21,8 +12,8 @@ def build_speechlet_response(title, output, reprompt_text, should_end_session):
         },
         'card': {
             'type': 'Simple',
-            'title': "SessionSpeechlet - " + title,
-            'content': "SessionSpeechlet - " + output
+            'title': title,
+            'content': output
         },
         'reprompt': {
             'outputSpeech': {
@@ -33,6 +24,20 @@ def build_speechlet_response(title, output, reprompt_text, should_end_session):
         'shouldEndSession': should_end_session
     }
 
+def build_cardless_speechlet_response(output, reprompt_text, should_end_session):
+    return {
+        'outputSpeech': {
+            'type': 'PlainText',
+            'text': output
+        },
+        'reprompt': {
+            'outputSpeech': {
+                'type': 'PlainText',
+                'text': reprompt_text
+            }
+        },
+        'shouldEndSession': should_end_session
+    }
 
 def build_response(session_attributes, speechlet_response):
     return {
@@ -60,15 +65,14 @@ def get_welcome_response():
     """
 
     session_attributes = {}
-    card_title = "Welcome"
-    speech_output = "Welcome to the oracle. " \
+    speech_output = "Welcome to Terp Tracker. " \
                     "Ask me what time a bus will arrive."
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
     reprompt_text = "Sorry, don't know that one."
     should_end_session = False
-    return build_response(session_attributes, build_speechlet_response(
-        card_title, speech_output, reprompt_text, should_end_session))
+    return build_response(session_attributes, build_cardless_speechlet_response(
+        speech_output, reprompt_text, should_end_session))
 
 
 def handle_session_end_request():
@@ -84,48 +88,82 @@ def get_arrival_request(intent, request):
     add those here
     """
 
+    """ Make sure we've got all the fields we need to make a query """
     if (not ('value' in intent['slots']['routeName'])) or (not ('value' in intent['slots']['stopName'])) :
         return build_delegate_response()
     else :
+        print(intent['slots']['routeName'])
+        print(intent['slots']['stopName'])
         stop_name = intent['slots']['stopName']['value']
         route_name = intent['slots']['routeName']['value']
         session_attributes = {}
-        card_title = "Get Arrival Request"
+
+        stop_status = intent['slots']['stopName']['resolutions']['resolutionsPerAuthority'][0]['status']['code']
+        route_status = intent['slots']['routeName']['resolutions']['resolutionsPerAuthority'][0]['status']['code']
+        if stop_status == "ER_SUCCESS_NO_MATCH" or route_status == "ER_SUCCESS_NO_MATCH" :
+            return build_response(session_attributes, build_cardless_speechlet_response(
+                "Sorry, I didn't understand that.", None, True))
+
+        card_title = "Terp Tracker arrival times"
         stop_id = intent['slots']['stopName']['resolutions']['resolutionsPerAuthority'][0]['values'][0]['value']['id']
+        stop_name = intent['slots']['stopName']['resolutions']['resolutionsPerAuthority'][0]['values'][0]['value']['name']
         route_id = intent['slots']['routeName']['resolutions']['resolutionsPerAuthority'][0]['values'][0]['value']['id']
-        speech_output = get_arrival_times_text(route_id, stop_id)
-        # If the user either does not reply to the welcome message or says something
-        # that is not understood, they will be prompted again with this text.
-        reprompt_text = None
+        route_name = intent['slots']['routeName']['resolutions']['resolutionsPerAuthority'][0]['values'][0]['value']['name']
+        speech_output = get_arrival_times_text(route_id, stop_id, route_name, stop_name)
+
+        reprompt_text = "Sorry, I didn't understand that."
         should_end_session = True
         return build_response(session_attributes, build_speechlet_response(
             card_title, speech_output, reprompt_text, should_end_session))
 
+def is_on_route(stopTag, routeTag) :
+    r = requests.get('http://webservices.nextbus.com/service/publicJSONFeed?command=routeConfig&a=umd&r=' + routeTag)
+    for stop in r.json()['route']['stop'] :
+        if stop['tag'] == stopTag :
+            return True
+    return False
 
-def get_arrival_times(route, stop) :
-    r = requests.get('http://api.umd.io/v0/bus/routes/' + route + '/arrivals/' + stop)
-    times = []
-    for i in r.json().get('predictions').get('direction').get('prediction') :
-      times.append(i.get('minutes'))
-    return times
+def stop_on_route(stopTags, routeTag) :
+    for stop in stopTags :
+        if is_on_route(stop, routeTag) :
+            return stop
+    return None
 
-def get_arrival_times_text(route, stop) :
-    output = ""
-    times = get_arrival_times(route, stop)
-    r = requests.get('http://api.umd.io/v0/bus/routes/' + route + '/arrivals/' + stop)
-    if len(times) == 0 :
-        output = 'There are no scheduled arrivals for the ' + + r.json().get('predictions').get('routeTitle') + ' bus at the ' + \
-        r.json().get('predictions').get('stopTitle') +  ' stop.'
-    elif len(times) == 1 :
-        output = 'The ' + r.json().get('predictions').get('routeTitle') + ' bus will arrive at the ' + \
-        r.json().get('predictions').get('stopTitle') +  ' stop in ' + times[0] + ' minute' + ('' if times[0] == 1 else 's') + '.'
+def get_predictions(stopTag, routeTag) :
+    r = requests.get('http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=umd&r=' + routeTag + '&s=' + stopTag)
+    if not 'predictions' in r.json() :
+        return None
+    if not 'direction' in r.json()['predictions'] :
+        return []
+    predictions = []
+    for prediction in r.json()['predictions']['direction']['prediction'] :
+        predictions.append(prediction['minutes'])
+    return predictions
+
+def get_arrival_times_text(route, stop, route_name, stop_name) :
+    stopMatch = stop_on_route(stop.split(','), route)
+    if stopMatch is None :
+        return 'The ' + route_name + ' bus route does not include the ' + \
+        stop_name + ' stop.'
+
+    predictions = get_predictions(stopMatch, route)
+    if len(predictions) == 0 :
+        return 'The ' + route_name + ' bus is not currently operating.'
+
+    if len(predictions) == 1 :
+        return 'The ' + route_name + ' bus will arrive at the ' + \
+        stopName +  ' stop in ' + predictions[0] + ' minute' + ('' if predictions[0] == 1 else 's') + '.'
+    elif len(predictions) == 2 :
+        return 'The ' + route_name + ' bus will arrive at the ' + \
+        stopName +  ' stop in ' + predictions[0] + ' minute' + ('' if predictions[0] == 1 else 's') + \
+        ' and ' + predictions[1] + ' minute' + ('' if predictions[0] == 1 else 's') + '.'
     else :
-        output = 'The ' + r.json().get('predictions').get('routeTitle') + ' bus will arrive at the ' + \
-        r.json().get('predictions').get('stopTitle') +  ' stop in '
-        for time in times[:-1] :
+        output = 'The ' + route_name + ' bus will arrive at the ' + \
+        stopName +  ' stop in '
+        for time in predictions[:-1] :
             output += time + ' minute' + ('' if time == '1' else 's') + ', '
-        output += 'and ' + times[-1] + ' minute' + ('' if times[-1] == 1 else 's') + '.'
-    return output
+        output += 'and ' + predictions[-1] + ' minute' + ('' if predictions[-1] == 1 else 's') + '.'
+        return output
 
 
 # --------------- Events ------------------
@@ -158,11 +196,7 @@ def on_intent(intent_request, session):
     intent_name = intent_request['intent']['name']
 
     # Dispatch to your skill's intent handlers
-    if intent_name == "MyColorIsIntent":
-        return set_color_in_session(intent, session)
-    elif intent_name == "WhatsMyColorIntent":
-        return get_color_from_session(intent, session)
-    elif intent_name == "AMAZON.HelpIntent":
+    if intent_name == "AMAZON.HelpIntent":
         return get_welcome_response()
     elif intent_name == "AMAZON.CancelIntent" or intent_name == "AMAZON.StopIntent":
         return handle_session_end_request()
@@ -185,20 +219,9 @@ def on_session_ended(session_ended_request, session):
 # --------------- Main handler ------------------
 
 def lambda_handler(event, context):
-    """ Route the incoming request based on type (LaunchRequest, IntentRequest,
-    etc.) The JSON body of the request is provided in the event parameter.
-    """
-    print("event.session.application.applicationId=" +
-          event['session']['application']['applicationId'])
-
-    """
-    Uncomment this if statement and populate with your skill's application ID to
-    prevent someone else from configuring a skill that sends requests to this
-    function.
-    """
-    # if (event['session']['application']['applicationId'] !=
-    #         "amzn1.echo-sdk-ams.app.[unique-value-here]"):
-    #     raise ValueError("Invalid Application ID")
+    if (event['session']['application']['applicationId'] !=
+        "amzn1.ask.skill.a1baf3a1-7e22-46b0-b202-4d26039289cb"):
+        raise ValueError("Invalid Application ID")
 
     if event['session']['new']:
         on_session_started({'requestId': event['request']['requestId']},
